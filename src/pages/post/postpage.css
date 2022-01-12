@@ -1,0 +1,146 @@
+.container {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  height: 8rem;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-left {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+
+.heading-sec {
+  font-family: "Monoton", cursive;
+  font-size: 3rem;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.heading-sec > a {
+  color: #db36a4;
+}
+
+.post-page-content {
+  width: 50%;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  margin: auto;
+  color: white;
+}
+
+/*** Post Styles ****/
+
+.post-heading-pri {
+  margin: auto;
+  /* color: white; */
+  padding: 0;
+  font-size: 4rem;
+}
+
+.post-subheading {
+  /* color: whitesmoke; */
+  margin: 1rem 0 0 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.post-info {
+  display: flex;
+  margin-top: 1rem;
+  height: 3rem;
+  /* color: white; */
+}
+
+.post-info-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-name,
+.post-time,
+.post-length {
+  margin-left: 2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.post-info-right {
+  flex: 1;
+}
+
+.post-img {
+  /* width: 80%; */
+  margin: auto;
+  margin-top: 2rem;
+  /* height: 40rem; */
+  background-color: #ffdde1;
+}
+
+.post-img > img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-writeup {
+  /* width: 80%; */
+  margin: auto;
+  margin-top: 4rem;
+  /* color: white; */
+}
+
+.post-writeup > p {
+  /* font-family: "Gideon Roman", cursive; */
+  font-size: 1.4rem;
+}
+
+.code-example {
+  background-color: #e7e9eb;
+  border-radius: 5px;
+  padding: 0.01em 16px;
+  padding: 8px 20px;
+  margin: 24px -20px;
+  box-shadow: none !important;
+}
+.code {
+  width: auto;
+  background-color: rgb(87, 86, 86);
+  padding: 8px 12px;
+  word-wrap: break-word;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  border-left: 4px solid #db36a4;
+  font-size: 15px;
+  color: white;
+}
+
+.code-span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+/*** for bullets ***/
+.post-list-item {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}

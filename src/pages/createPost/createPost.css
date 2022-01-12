@@ -1,0 +1,33 @@
+.create-post-container {
+  background-color: white;
+  height: 100vh;
+}
+
+.create-post-container > h2 {
+  margin: 0;
+}
+
+.control-pallete {
+  width: 100%;
+  height: 3rem;
+  background-color: aquamarine;
+}
+
+.control-pallete-btn {
+  height: inherit;
+  width: 3rem;
+}
+
+.editor-area {
+  margin-top: 5rem;
+  height: 30rem;
+  width: 100%;
+  background-color: beige;
+}
+
+.text-area {
+  width: 70%;
+  height: 50%;
+  resize: none;
+  font-size: 1.5rem;
+}

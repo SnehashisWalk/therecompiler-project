@@ -1,0 +1,49 @@
+.wp-content {
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+.wp-heading-box {
+}
+
+.wp-heading {
+  font-size: 3rem;
+  position: relative;
+}
+.wp-heading::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid white;
+  z-index: -1;
+}
+
+.wp-post-body {
+  width: 100%;
+  height: 12rem;
+  margin-top: 5rem;
+  display: flex;
+  border: 1px solid white;
+}
+
+.wp-post-left {
+  flex: 35%;
+}
+
+.wp-post-left > img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wp-post-right {
+  flex: 65%;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  color: white;
+}

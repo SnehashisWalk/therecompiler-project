@@ -1,0 +1,79 @@
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+
+/******FIRST CONTAINER*******/
+.first-container {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-container {
+  height: 10rem;
+  width: 60%;
+  margin: 0 0 3rem 0;
+  /* border: 0.2rem solid #db36a4; */
+}
+
+.carousel-container > img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.site-desc {
+  height: 10rem;
+  width: 30%;
+  border: 0.2rem solid #db36a4;
+  padding: 0 15px;
+}
+
+.site-desc-heading {
+  font-family: "Teko", sans-serif;
+  color: #db36a4;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin: 1.2rem 0 0 0;
+}
+
+.site-desc-content {
+  color: #fff;
+  font-style: italic;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.8rem 0 0 0;
+}
+/*******************************/
+
+/*****SECOND CONTAINER******/
+.second-container {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts-container {
+  width: 60%;
+}
+
+.recent-posts {
+  height: 30rem;
+  width: 30%;
+  border: 1px solid #db36a4;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-post {
+  height: inherit;
+}
+/***************************/
