@@ -1,0 +1,50 @@
+.homepage-header {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.homepage-header-left {
+  flex: 1;
+  display: flex;
+}
+
+.homepage-header-right {
+  flex: 1;
+  display: flex;
+}
+
+.heading {
+  font-family: "Monoton", cursive;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+}
+.heading > a {
+  color: #db36a4;
+  margin-left: 15rem;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+.hp-subheading {
+  font-style: italic;
+  margin: 0;
+  font-size: 1.4rem;
+  margin-left: 5rem;
+  color: rgb(255, 255, 255);
+}

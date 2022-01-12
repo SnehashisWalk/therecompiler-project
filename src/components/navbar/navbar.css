@@ -1,0 +1,60 @@
+.navbar {
+  height: 2.2rem;
+  width: 100%;
+  /* border: 0.5px solid white; */
+  margin: auto;
+  transform: skewX(-15deg);
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  height: inherit;
+  padding: 0;
+  text-align: center;
+  display: flex !important;
+  align-items: center !important;
+  flex: 15;
+}
+
+.menu-item {
+  flex: 3;
+  height: inherit;
+  position: relative;
+  border: 0.2rem solid #db36a4;
+}
+.menu-item-text {
+  height: inherit;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-family: "Teko", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+.menu-item-text > a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+.menu-item-text:hover {
+  cursor: pointer;
+}
+.menu-item-text > a:hover {
+  z-index: 99;
+  color: #db36a4;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
+}
